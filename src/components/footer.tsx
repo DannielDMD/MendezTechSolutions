@@ -50,14 +50,18 @@ const Footer = () => {
                 Email: info@MendezTech Solutions.com
               </p>
               <p className="text-sm text-gray-600 dark:text-gray-300">
-                Teléfono: +34 555 123 456
+              Teléfono: + 57 320 822 14 61
               </p>
             </div>
             <div>
               <h3 className="text-lg font-semibold mb-4">Síguenos</h3>
               <div className="flex space-x-4">
-                <TwitterLogoIcon />
-                <InstagramLogoIcon />
+              <Link to="https://twitter.com/">
+                        <TwitterLogoIcon />
+                    </Link>
+                    <Link to="https://www.instagram.com/">
+                        <InstagramLogoIcon />
+                    </Link>
               </div>
             </div>
           </div>
